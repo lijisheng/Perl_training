@@ -1,0 +1,7 @@
+#!/usr/bin/perl -w
+$dbz = 'dbz';
+open(OPEN,$dbz);
+$dbzr = <OPEN>;
+close OPEN;
+print $dbzr;
+
